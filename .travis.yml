@@ -31,6 +31,6 @@ jobs:
 cache: pip
 
 install:
-- pip install tox-travis tox-venv
+- pip install tox-travis
 
 script: tox
